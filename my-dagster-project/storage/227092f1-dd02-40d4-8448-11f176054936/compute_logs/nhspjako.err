@@ -1,0 +1,7 @@
+[32m2024-09-17 14:58:23 +0100[0m - dagster - [34mDEBUG[0m - ato_file_processing_job - 227092f1-dd02-40d4-8448-11f176054936 - 15776 - LOGS_CAPTURED - Started capturing logs in process (pid: 15776).
+[32m2024-09-17 14:58:23 +0100[0m - dagster - [34mDEBUG[0m - ato_file_processing_job - 227092f1-dd02-40d4-8448-11f176054936 - 15776 - harmonization_bmi - STEP_START - Started execution of step "harmonization_bmi".
+[32m2024-09-17 14:58:24 +0100[0m - dagster - [34mINFO[0m - ato_file_processing_job - 227092f1-dd02-40d4-8448-11f176054936 - harmonization_bmi - Added BMI column
+[32m2024-09-17 14:58:24 +0100[0m - dagster - [34mDEBUG[0m - ato_file_processing_job - 227092f1-dd02-40d4-8448-11f176054936 - 15776 - harmonization_bmi - STEP_OUTPUT - Yielded output "result" of type "DataFrame". (Type check passed).
+[32m2024-09-17 14:58:25 +0100[0m - dagster - [34mDEBUG[0m - ato_file_processing_job - 227092f1-dd02-40d4-8448-11f176054936 - 15776 - harmonization_bmi - ASSET_MATERIALIZATION - Materialized value harmonization_bmi.
+[32m2024-09-17 14:58:25 +0100[0m - dagster - [34mDEBUG[0m - ato_file_processing_job - 227092f1-dd02-40d4-8448-11f176054936 - 15776 - harmonization_bmi - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2024-09-17 14:58:25 +0100[0m - dagster - [34mDEBUG[0m - ato_file_processing_job - 227092f1-dd02-40d4-8448-11f176054936 - 15776 - harmonization_bmi - STEP_SUCCESS - Finished execution of step "harmonization_bmi" in 1.64s.

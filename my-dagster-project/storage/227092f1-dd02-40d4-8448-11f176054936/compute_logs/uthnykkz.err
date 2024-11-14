@@ -1,0 +1,7 @@
+[32m2024-09-17 14:58:08 +0100[0m - dagster - [34mDEBUG[0m - ato_file_processing_job - 227092f1-dd02-40d4-8448-11f176054936 - 35228 - LOGS_CAPTURED - Started capturing logs in process (pid: 35228).
+[32m2024-09-17 14:58:08 +0100[0m - dagster - [34mDEBUG[0m - ato_file_processing_job - 227092f1-dd02-40d4-8448-11f176054936 - 35228 - metadata_hight - STEP_START - Started execution of step "metadata_hight".
+[32m2024-09-17 14:58:08 +0100[0m - dagster - [34mINFO[0m - ato_file_processing_job - 227092f1-dd02-40d4-8448-11f176054936 - metadata_hight - Loaded Metadata table 'hight_metadata'.
+[32m2024-09-17 14:58:13 +0100[0m - dagster - [34mDEBUG[0m - ato_file_processing_job - 227092f1-dd02-40d4-8448-11f176054936 - 35228 - metadata_hight - STEP_OUTPUT - Yielded output "result" of type "DataFrame". (Type check passed).
+[32m2024-09-17 14:58:16 +0100[0m - dagster - [34mDEBUG[0m - ato_file_processing_job - 227092f1-dd02-40d4-8448-11f176054936 - 35228 - metadata_hight - ASSET_MATERIALIZATION - Materialized value metadata_hight.
+[32m2024-09-17 14:58:16 +0100[0m - dagster - [34mDEBUG[0m - ato_file_processing_job - 227092f1-dd02-40d4-8448-11f176054936 - 35228 - metadata_hight - HANDLED_OUTPUT - Handled output "result" using IO manager "io_manager"
+[32m2024-09-17 14:58:16 +0100[0m - dagster - [34mDEBUG[0m - ato_file_processing_job - 227092f1-dd02-40d4-8448-11f176054936 - 35228 - metadata_hight - STEP_SUCCESS - Finished execution of step "metadata_hight" in 8.08s.

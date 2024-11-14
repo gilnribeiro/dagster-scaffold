@@ -1,0 +1,5 @@
+[32m2024-09-17 14:58:08 +0100[0m - dagster - [34mDEBUG[0m - ato_file_processing_job - 227092f1-dd02-40d4-8448-11f176054936 - 39292 - LOGS_CAPTURED - Started capturing logs in process (pid: 39292).
+[32m2024-09-17 14:58:08 +0100[0m - dagster - [34mDEBUG[0m - ato_file_processing_job - 227092f1-dd02-40d4-8448-11f176054936 - 39292 - country_files - STEP_START - Started execution of step "country_files".
+[32m2024-09-17 14:58:08 +0100[0m - dagster - [34mDEBUG[0m - ato_file_processing_job - 227092f1-dd02-40d4-8448-11f176054936 - 39292 - country_files - STEP_OUTPUT - Yielded output "result" of type "Nothing". (Type check passed).
+[32m2024-09-17 14:58:09 +0100[0m - dagster - [34mDEBUG[0m - ato_file_processing_job - 227092f1-dd02-40d4-8448-11f176054936 - 39292 - country_files - ASSET_MATERIALIZATION - Materialized value country_files.
+[32m2024-09-17 14:58:09 +0100[0m - dagster - [34mDEBUG[0m - ato_file_processing_job - 227092f1-dd02-40d4-8448-11f176054936 - 39292 - country_files - STEP_SUCCESS - Finished execution of step "country_files" in 1.14s.
