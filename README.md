@@ -24,6 +24,9 @@ You can start writing assets in `my_dagster_project/assets.py`. The assets are a
 ### Adjusting Contants and .Env variables
 Adjust the paths for the variables at `my-dagster-project\my_dagster_project\constants.py`, and at `my-dagster-project\.env`
 
+## How it works:
+- Drop the csv files on SFTP and the sensor will check every 30s if there are new files, if so, its starts the transformation process and logs the progress on the duckdb workflow table.
+
 ## Development
 
 ### Adding new Python dependencies
