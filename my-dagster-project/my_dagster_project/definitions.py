@@ -5,6 +5,7 @@ from my_dagster_project.resources import ApiResource, WorkflowLoggerResource
 from my_dagster_project import assets
 from my_dagster_project.sensors import sftp_sensor_with_skip_reasons
 from dagster_duckdb_polars import DuckDBPolarsIOManager
+from my_dagster_project.constants import LOCAL_DUCKDB, POLARS_PARQUET_DIR
 
 # from dagster_duckdb_polars import DuckDBPolarssIOManager
 
@@ -17,11 +18,11 @@ defs = Definitions(
         "api": ApiResource(),
         "workflow_logger": WorkflowLoggerResource(stop_on_failure=True),
         "io_manager": DuckDBPolarsIOManager(
-            database="C:/Users/gilnr/OneDrive/Ambiente de Trabalho/ITC Contract/GitHub/Dagster_Scaffold/my-dagster-project/io_database/local_duckdb_database.duckdb",
+            database=LOCAL_DUCKDB,
             schema="DBO",
         ),
         # "polars_parquet_io_manager": PolarsParquetIOManager(
-        #     base_dir="C:/Users/gilnr/OneDrive/Ambiente de Trabalho/ITC Contract/GitHub/Dagster_Scaffold/my-dagster-project/io_database"
+        #     base_dir=POLARS_PARQUET_DIR,
         # ),
     },
     sensors=all_sensors,

@@ -1,7 +1,3 @@
-# my_dagster_project
-
-This is a [Dagster](https://dagster.io/) project scaffolded with [`dagster project scaffold`](https://docs.dagster.io/getting-started/create-new-project).
-
 ## Getting started
 
 First install the `requirements.txt` using:
@@ -24,6 +20,9 @@ dagster dev
 Open http://localhost:3000 with your browser to see the project.
 
 You can start writing assets in `my_dagster_project/assets.py`. The assets are automatically loaded into the Dagster code location as you define them.
+
+### Adjusting Contants and .Env variables
+Adjust the paths for the variables at `my-dagster-project\my_dagster_project\constants.py`, and at `my-dagster-project\.env`
 
 ## Development
 

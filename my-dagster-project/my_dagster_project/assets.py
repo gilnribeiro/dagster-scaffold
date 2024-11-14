@@ -2,7 +2,7 @@ from dagster import AssetExecutionContext, asset, Config, materialize
 from my_dagster_project.resources import ApiResource, WorkflowLoggerResource
 import os
 import shutil
-from my_dagster_project.constants import OUTPUT_DIR, INPUT_DIR
+from my_dagster_project.constants import METADATA_TABLE, OUTPUT_DIR, INPUT_DIR
 import polars as pl
 from my_dagster_project.utils import log_workflow
 
@@ -89,9 +89,7 @@ def harmonization_age(
 @asset(io_manager_key="io_manager")
 def metadata_hight(context: AssetExecutionContext) -> pl.DataFrame:
     context.log.info("Loaded Metadata table 'hight_metadata'.")
-    return pl.read_excel(
-        "C:/Users/gilnr/OneDrive/Ambiente de Trabalho/ITC Contract/GitHub/Dagster_Scaffold/my-dagster-project/data/metadata/hight_metadata.xlsx"
-    )
+    return pl.read_excel(METADATA_TABLE)
 
 
 @asset(required_resource_keys={"workflow_logger"})
